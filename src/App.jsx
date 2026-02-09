@@ -9,7 +9,14 @@ const App = () => {
   return (
     <div>
       <Header title='My firt React App' color='red' year='2026' />
-      <Header title='Thanks' />
+      <Header title='Lets explore FSD together' />
+
+      <card>
+        <h2>product: </h2>
+        <p>Description:</p>
+        <p>Price:</p>
+      </card>
+
       <Footer year={y} company={c} />
     </div>
   )
