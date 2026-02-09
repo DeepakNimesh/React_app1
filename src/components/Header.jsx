@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Header = ({title, color, year}) => {
+const Header = ({card}) => {
   return (
       <header>
-        <h1>{title}  {color}  {year}</h1>
+       {card}
 
         <nav>
             <a href="#">Home</a>
