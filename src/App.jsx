@@ -8,7 +8,7 @@ const App = () => {
   const c = {name:"KIET", location:"Ghaziabad", EstYear:1990}
   return (
     <div>
-      <Header title='My firt React App' />
+      <Header title='My firt React App' color='red' year='2026' />
       <Header title='Thanks' />
       <Footer year={y} company={c} />
     </div>
